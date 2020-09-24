@@ -18,7 +18,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello, \n\nThis is a Telegram Video Compress Bot \n\n<b>Please sent me any Telegram big file I Will compress a small file</b> \n\n/help for more details... \n\nSupport Group :@Dx_Support"
+    START_TEXT = "Hello, \n\nThis is a Telegram Video Compress Bot \n\n<b>Please sent me any Telegram big file I Will compress it in a small file</b> \n\n/help for more details... \n\nMy owner Is ₳฿Ⱨł₦₳V 🇮🇳(t.me/Its_AV3) ⁪⁬⁮⁮⁮⁮ ‌‌‌‌"
    
     ABS_TEXT = " Please don't be selfish."
     
@@ -51,7 +51,7 @@ class Localisation:
     
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     
-    NO_VOID_FORMAT_FOUND = "no-one gonna help you\n{}"
+    NO_VOID_FORMAT_FOUND = "Error:404 No Video Format Found. Please Reply with MP4 or MKV Media.\n{}"
     
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     
@@ -59,7 +59,7 @@ class Localisation:
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "Hi am Video Compressor Bot \n\n1. Sent your telegram big video file \n2. Reply the file - /compress And Persentage \nEg:- <code>/compress 50</code> \n\nSupport Group :@Dx_Support"
+        "Hi am Video Compressor Bot \n\n1. Sent your telegram big video file \n2. Reply the file - /compress And Percentage \nEg:- <code>/compress 50</code> \n\nIf you dont know how to use this bot you can contact @Its_AV3Bot for help."
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
