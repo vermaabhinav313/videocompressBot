@@ -19,15 +19,15 @@
     },
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": ""
+      "value": "1217426880:AAGyzF6TAL_FVVHNmm_RuXWcu-2h6SDSxfs"
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org or @usetgxbot",
-      "value": ""
+      "value": "908950"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org or @usetgxbot",
-      "value": ""
+      "value": "b3d97d5998f10a88c87650b28e96d92f"
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
